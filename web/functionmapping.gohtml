@@ -1,0 +1,18 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+
+<h1>b.gohtml</h1>
+{{range .Persons}}
+<div>{{.Name}} {{ .Surname | tu | tl }}</div>
+{{end}}
+
+{{range .Colors}}
+<div>{{.Name}}</div>
+{{end}}
+
+</body>
+</html> 
